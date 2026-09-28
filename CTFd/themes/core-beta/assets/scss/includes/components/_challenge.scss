@@ -1,0 +1,61 @@
+/* Challenge styles
+-------------------------------------------------- */
+
+// Make the challenge pop-up use most of the window width.
+#challenge-window .modal-dialog {
+  max-width: 80vw;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 768px) {
+    max-width: 96vw;
+    width: 96vw;
+  }
+}
+
+// Submit button always has readable white text on the red background.
+.challenge-submit,
+.challenge-submit:hover,
+.challenge-submit:focus,
+.challenge-submit:active {
+  color: #fff !important;
+}
+
+.challenge-desc {
+  overflow-wrap: anywhere;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+[data-bs-theme="light"] .challenge-button {
+  border: none;
+  box-shadow: 0 0 15px var(--bs-secondary);
+
+  &.challenge-solved {
+    background-color: #29c830;
+
+    &:hover {
+      background-color: #37d63e;
+    }
+  }
+}
+
+[data-bs-theme="dark"] .challenge-button {
+  border: none;
+  background-color: var(--bs-gray-dark);
+
+  &:hover {
+    background-color: var(--bs-gray);
+  }
+
+  &.challenge-solved {
+    background-color: #29c830;
+
+    &:hover {
+      background-color: #37d63e;
+    }
+  }
+}

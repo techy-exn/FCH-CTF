@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+  {{ super() }}
+{% endblock %}
+
+{% block content %}
+
+<section class="ns-hero">
+  <div class="container">
+    <div class="ns-hero__eyebrow">
+      <span class="ns-pulse"></span>
+      FortiOS 8.0 &middot; Hands-On Roadshow
+    </div>
+
+    <h1 class="ns-hero__title">
+      {% if Configs.ctf_name and Configs.ctf_name != "CTFd" %}
+        {{ Configs.ctf_name }}
+      {% else %}
+        FortiOS <span class="ns-accent">8.0</span> Hands-On Roadshow
+      {% endif %}
+    </h1>
+
+    <p class="ns-hero__lead">
+      Get an early, hands-on look at the latest innovations coming to the Fortinet
+      Security Fabric. Explore new features, configuration enhancements and
+      operational improvements through practical lab exercises &mdash; and each
+      activity ends with a challenge to prove you got it working.
+    </p>
+
+    <div class="ns-hero__actions">
+      {% if authed() %}
+        <a href="{{ url_for('challenges.listing') }}" class="btn ns-btn-hero">
+          <i class="fas fa-play pe-2"></i>Start the workshop
+        </a>
+        <a href="{{ url_for('scoreboard.listing') }}" class="btn ns-btn-ghost">
+          <i class="fas fa-ranking-star pe-2"></i>Scoreboard
+        </a>
+      {% else %}
+        {% if registration_visible() %}
+          <a href="{{ url_for('auth.register') }}" class="btn ns-btn-hero">
+            <i class="fas fa-user-plus pe-2"></i>Create your account
+          </a>
+          <a href="{{ url_for('auth.login') }}" class="btn ns-btn-ghost">
+            <i class="fas fa-sign-in-alt pe-2"></i>I already have an account
+          </a>
+        {% else %}
+          <a href="{{ url_for('auth.login') }}" class="btn ns-btn-hero">
+            <i class="fas fa-sign-in-alt pe-2"></i>Sign in to start
+          </a>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="ns-section">
+  <div class="container">
+    <div class="ns-feature-grid">
+
+      <div class="ns-feature">
+        <div class="ns-feature__icon"><i class="fas fa-rocket"></i></div>
+        <div class="ns-feature__title">What's new in 8.0</div>
+        <p class="ns-feature__text">
+          Get an early look at the newest features and enhancements landing across
+          FortiOS 8.0 and the Fortinet Security Fabric.
+        </p>
+      </div>
+
+      <div class="ns-feature">
+        <div class="ns-feature__icon"><i class="fas fa-sliders"></i></div>
+        <div class="ns-feature__title">Configuration enhancements</div>
+        <p class="ns-feature__text">
+          Work through refreshed configuration workflows and operational
+          improvements, hands-on, in a live FortiGate environment.
+        </p>
+      </div>
+
+      <div class="ns-feature">
+        <div class="ns-feature__icon"><i class="fas fa-diagram-project"></i></div>
+        <div class="ns-feature__title">The Security Fabric</div>
+        <p class="ns-feature__text">
+          See how FortiGate, FortiAnalyzer, FortiManager and the rest of the Fabric
+          work together across your network.
+        </p>
+      </div>
+
+      <div class="ns-feature">
+        <div class="ns-feature__icon"><i class="fas fa-flag-checkered"></i></div>
+        <div class="ns-feature__title">Prove it in the labs</div>
+        <p class="ns-feature__text">
+          Every lab ends with a challenge, so you leave able to take new insights
+          straight back to your customers.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% if page and page.content %}
+<section class="ns-section pt-0">
+  <div class="container">
+    <div class="card">
+      <div class="card-body challenge-desc">
+        {{ page.content | safe }}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="ns-section pt-0">
+  <div class="container text-center">
+    <h2 class="ns-section__title">Ready when you are</h2>
+    <p class="ns-section__sub">
+      Activities are ordered so the next one is always at the top of the list.
+      Work down the categories at your own pace.
+    </p>
+    {% if authed() %}
+      <a href="{{ url_for('challenges.listing') }}" class="btn ns-btn-hero">
+        <i class="fas fa-flag-checkered pe-2"></i>Go to the challenges
+      </a>
+    {% else %}
+      <a href="{{ url_for('auth.login') }}" class="btn ns-btn-hero">
+        <i class="fas fa-sign-in-alt pe-2"></i>Sign in to start
+      </a>
+    {% endif %}
+  </div>
+</section>
+
+{% endblock %}

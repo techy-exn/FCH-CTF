@@ -1,0 +1,362 @@
+{
+  "2": {
+    "name": "Rules of Engagement",
+    "category": "0. Introduction",
+    "images": [],
+    "missing_source_references": []
+  },
+  "3": {
+    "name": "Interface",
+    "category": "0. Introduction",
+    "images": [
+      "Cloudshare_VM_List.jpg",
+      "Cloudshare_Resume_Environment.jpg",
+      "All_actions.jpg",
+      "SendText.jpg",
+      "SendUsernamePassword.jpg",
+      "CtrlAltDel.jpg",
+      "Cloudshare_operations.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "4": {
+    "name": "Attacker - Gaining Access",
+    "category": "1. Initial Access",
+    "images": [
+      "SendUsernamePassword.jpg",
+      "starting_adaptixserver.jpg",
+      "split_terminal_horizontally.jpg",
+      "StartingAdaptixClient.jpg",
+      "adaptixclient_profile.jpg",
+      "Session_Appears.jpg",
+      "Session_Graph_Icon.jpg",
+      "Inside_Session_graph_1_beacon.jpg",
+      "Switching_Between_Session_Graph_And_Session_Table.jpg",
+      "Right_click_In_session_graph.jpg",
+      "Right_Click_In_Session_Table.jpg",
+      "Console_Typing_Help.jpg",
+      "adaptixconsole_axscript.jpg",
+      "adaptix_axscriptmanager_BOF.jpg",
+      "Console_Typing_WhoAmI.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "5": {
+    "name": "Attacker - Elevating Privilege",
+    "category": "2. Privilege Elevation",
+    "images": [
+      "Inside_Beacon_UACBypass.jpg",
+      "Adaptix_SecondBeacon_AfterUAC.jpg",
+      "RightClickBeacon_ProcessBrowser.jpg",
+      "AdaptixInsideBeacon_RefreshProcessBrowser.jpg",
+      "RightClick_StealToken_EngAdmin.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "6": {
+    "name": "Attacker - Lateral Movement",
+    "category": "3. Lateral Movement",
+    "images": [
+      "Powershell_find_DC.jpg",
+      "Dir_OT_Domain_While_Admin_Context.jpg",
+      "GettingIntoDCOT.jpg",
+      "SessionGraph_With_AllDevices_OT.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "7": {
+    "name": "Attacker - Dropping Malware on Share",
+    "category": "4. Delivery",
+    "images": [
+      "Upload_Beacon_To_Share.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "8": {
+    "name": "Defender - Defending the Endpoint",
+    "category": "5. SentinelOne",
+    "images": [
+      "snip-s1.jpg",
+      "SentinelOne_Dashboard.jpg",
+      "SentinelOne_BeaconDetected.jpg",
+      "SentinelOne_Beacon_PurpleAI.jpg",
+      "SentinelOne_Beacon_FileAndProcess.jpg",
+      "SentinelOne_Beacon_DetectionDetails.jpg",
+      "SentinelOne_Beacon_TargetAsset.jpg",
+      "SentinelOne_Beacon_AlertEndpoint.jpg",
+      "SentinelOne_Beacon_GoToGraphExplorer.jpg",
+      "SentinelOne_Beacon_InsideGraphViewer.jpg",
+      "SentinelOne_Beacon_ActionsToTake.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "9": {
+    "name": "Defender - Confusing the attackers",
+    "category": "6. FortiDeceptor Decoys",
+    "images": [
+      "SSO_Login.jpg",
+      "SSO_Login_2.jpg",
+      "SSO_Login_3.jpg",
+      "FortiDeceptor_Menu_DeploymentWizard.jpg",
+      "FortiDeceptor_Creating_New_Decoy.jpg",
+      "Create_Decoy_1.jpg",
+      "Create_Decoy_2.jpg",
+      "Create_Decoy_6.jpg",
+      "Create_Decoy_3.jpg",
+      "Create_Decoy_4.jpg",
+      "Create_Decoy_5.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "10": {
+    "name": "Defender - Protecting decoy with FG",
+    "category": "7a. FortiDeceptor + FortiGate",
+    "images": [
+      "snip1_deceptor.jpg",
+      "xnip2-deceptor.jpg",
+      "xnip3-deceptor.jpg",
+      "snip4-deceptor.jpg",
+      "snip5-deceptor.jpg",
+      "snip6-deceptor.jpg",
+      "snip7-deceptor.jpg",
+      "snip8-deceptor.jpg",
+      "snip10-deceptor.jpg",
+      "snip11-deceptor.jpg",
+      "Copy_API_key_Admin.jpg",
+      "snip12-deceptor.jpg",
+      "snip13-deceptor.jpg",
+      "snip14-deceptor.jpg",
+      "FDC_BlockPage.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "11": {
+    "name": "Defender - Defending decoy with PA",
+    "category": "7b. FortiDeceptor + PA firewall",
+    "images": [],
+    "missing_source_references": []
+  },
+  "12": {
+    "name": "Attacker - Hack the PLC",
+    "category": "8. Hacking PLC",
+    "images": [
+      "Right_Click_To_File_Browser.jpg",
+      "Select_Correct_user.jpg",
+      "Go_To_Folder.jpg",
+      "UploadFile.jpg",
+      "Select_File_Click_Upload.jpg",
+      "File_Upload_Succes.jpg",
+      "Click_Refresh.jpg",
+      "Command_Executed.jpg",
+      "Script_Executed.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "13": {
+    "name": "Defender - Defending OT attack",
+    "category": "9. Nozomi Networks Guardian",
+    "images": [
+      "Guardian_Login.jpg",
+      "Alert_Overview__8ce376a7.jpg",
+      "Group_By_Incident.jpg",
+      "Alert2_Change_IP.jpg",
+      "Alert3_Name_Change.jpg",
+      "Alert1_New_Function_Code.jpg",
+      "Alert_Overview_Vantage.jpg",
+      "Alert1.jpg",
+      "Alert2_Part1.jpg",
+      "Alert2_Part2.jpg",
+      "Alert_Overview.jpg",
+      "S1_Device_State_Change.jpg",
+      "S1_Baseline_Deviation.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "14": {
+    "name": "Defender - Gain access to OT VPN",
+    "category": "10. VPN access",
+    "images": [
+      "Win10_IT_GoingToShare.jpg",
+      "VPN_is_Connected_popup.jpg",
+      "On_W10_S1_Detected_VPNBeacon.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "15": {
+    "name": "Attacker - Gain Access to IT",
+    "category": "11. Attack IT",
+    "images": [
+      "GetSystemToken_W10.jpg",
+      "Jump_PSExec_Failed.jpg",
+      "StealToken_it-admin.jpg",
+      "it-admin-context.jpg",
+      "Jump_PSExec_Success.jpg",
+      "Show_DC-IT_Beacon.jpg",
+      "all_beacons_graph.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "16": {
+    "name": "Attacker - Change DNS",
+    "category": "12. Manipulate DC's",
+    "images": [
+      "DNS_Get_Before_Change.png",
+      "DNS_Set_Change.png",
+      "DNS_Get_After_Change.png"
+    ],
+    "missing_source_references": []
+  },
+  "17": {
+    "name": "Attacker - File exfiltration",
+    "category": "13. File exfiltration",
+    "images": [
+      "Screenshot_dnsexfill_1.png",
+      "Screenshot_dnsexfill_2.png",
+      "Screenshot_dnsexfill_3.png",
+      "Screenshot_dnsexfill_4.png",
+      "Screenshot_dnsexfill_5.png"
+    ],
+    "missing_source_references": []
+  },
+  "18": {
+    "name": "Attacker - Ransomware",
+    "category": "14 - Ransomware",
+    "images": [
+      "ransom-1.jpg",
+      "Ransom-2.jpg",
+      "Ransom-5.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "19": {
+    "name": "Defender - Protect & Rollback",
+    "category": "15. SentinelOne",
+    "images": [
+      "ransomware-s1.jpg",
+      "policy-s1.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "20": {
+    "name": "Defender - FortiPAM creating secret",
+    "category": "16a. FortiPAM",
+    "images": [
+      "Login_Screen.jpg",
+      "fortipamgototargets.jpg",
+      "fortipamcreatetargetempty.jpg",
+      "fortipamcreatetargetfilledin.jpg",
+      "fortipamgotosecrets.jpg",
+      "fortipamcreatesecrettemplateselection.jpg",
+      "pam-.jpg",
+      "Fortipamcreatesecret_settings.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "21": {
+    "name": "Defender - FortiPAM Video Recording",
+    "category": "16a. FortiPAM",
+    "images": [
+      "fortipam_editsecret_recording.jpg",
+      "Fortipam_Screen_Before_Recording.jpg",
+      "FortiPAM_recording_Video_inside_RDP.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "25": {
+    "name": "Defender - FortiPAM Analysis",
+    "category": "16a. FortiPAM",
+    "images": [
+      "FortiSRA_MenuOverview_SecretEventAndVideo.jpg",
+      "FortiSRA_Logs_ViewVideoButton.jpg",
+      "FortiSRA_watching_RecordedVideo.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "26": {
+    "name": "Defender - FortiPAM Approval Flow",
+    "category": "16a. FortiPAM",
+    "images": [
+      "fortipam_editsecret_adminapproval.jpg",
+      "FortiSRA_LaunchSecret_After_Approval.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "27": {
+    "name": "Defender Bonus - FortiPAM setup",
+    "category": "16a. FortiPAM",
+    "images": [
+      "PAM_Flow.png"
+    ],
+    "missing_source_references": []
+  },
+  "28": {
+    "name": "Defender - Prisma Browser",
+    "category": "16b. Prisma Browser",
+    "images": [],
+    "missing_source_references": []
+  },
+  "29": {
+    "name": "Defender - Smart Polling",
+    "category": "17. Nozomi Networks Guardian",
+    "images": [
+      "StartingPLC.jpg",
+      "Click_TIA_Portal.jpg",
+      "TIAPortal_OpenProject.jpg",
+      "TIAPortal_SelectPLC.jpg",
+      "TIAportal_CompileToDevice.jpg",
+      "TIAPortal_Online_Loading.jpg",
+      "TIA_Portal_Online_Completed.jpg",
+      "Download_To_Device.jpg",
+      "TIA_Portal_DoubleClick_DeviceConfiguration.jpg",
+      "NN_Guardian_SmartPollingMenu.jpg",
+      "NN_Guardian_SmartPolling_NewPlanButton.jpg",
+      "NN_Guardian_SmartPolling_NewPlan_Empty.jpg",
+      "NN_Guardian_SmartPolling_NewPlan_FilledIn.jpg",
+      "NN_Guardian_SP_Add_nodes.jpg",
+      "NN_Guardian_ExecutePlan.jpg",
+      "Guardian_Enriched_After_Smart_Polling.jpg",
+      "NN_Guardian_little_i_icon.jpg",
+      "NN_Guardian_Detected_Passively.jpg",
+      "NN_Guardian_Detected_Active.jpg",
+      "Asset_Focus_On.jpg",
+      "Focus_On_IP.jpg",
+      "Asset_Network_Graph.jpg",
+      "Vantage_SmartPolling_Menu.jpg",
+      "Vantage_SmartPolling_Addbutton.jpg",
+      "Vantage_SmartPolling_ConfigurationPart1.jpg",
+      "Vantage_SmartPolling_ConfigurationPart2.jpg",
+      "Vantage_SmartPolling_ConfigurationPart3.jpg",
+      "Vantage_SmartPolling_ConfigurationPart4.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "30": {
+    "name": "General - Feedback",
+    "category": "18. Feedback",
+    "images": [
+      "please-pretty.jpg"
+    ],
+    "missing_source_references": []
+  },
+  "32": {
+    "name": "Creating the PLC",
+    "category": "0. Introduction",
+    "images": [
+      "PLC_Name.jpg",
+      "Click_TIA_Portal.jpg",
+      "TIAPortal_OpenProject.jpg",
+      "Opening_Project_v2.jpg",
+      "Open_PLC.jpg",
+      "TIAPortal_SelectPLC.jpg",
+      "TIAportal_CompileToDevice.jpg",
+      "Certificate_Warning_PLC.jpg",
+      "Download_To_Device.jpg",
+      "Load_config_PLC.jpg",
+      "Load_Results.jpg",
+      "TIAPortal_Online_Loading.jpg",
+      "TIA_Portal_Online_Completed.jpg",
+      "TIA_Portal_DoubleClick_DeviceConfiguration.jpg"
+    ],
+    "missing_source_references": []
+  }
+}
