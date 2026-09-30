@@ -138,11 +138,6 @@
     <h1 class="fos-page__title">Credentials</h1>
   </div>
 
-  <p class="fos-page__sub">
-    Use the <strong>Navigator</strong> to quickly reach every FortiOS 8.0 resource,
-    security solution and VM in your environment.
-  </p>
-
   <div class="fos-callout">
     <i class="fas fa-triangle-exclamation" style="color:var(--fos-red);font-size:1.15rem;"></i>
     <span>Make <strong>sure</strong>  to check credentials here.</span>
