@@ -182,8 +182,8 @@
         <tr>
           <td>IT Domain admin - IT DC</td>
           <td><span class="fos-pill">Password</span></td>
-          <td><span class="fos-cred">it-admin</span></td>
-          <td><span class="fos-cred">OTworkshop123!</span></td>
+          <td><span class="fos-cred">kim</span></td>
+          <td><span class="fos-cred">OTsecurityworkshop123!</span></td>
         </tr>
         <tr>
           <td>OT Domain admin - Engineering Workstation 2</td>
@@ -206,7 +206,7 @@
         <tr>
           <td>FortiEDR & FortiSASE</td>
           <td><span class="fos-pill">IAM</span></td>
-          <td><span class="fos-cred">cyberhellotx@gmail.com</span></td>
+          <td><span class="fos-cred">adminx</span></td>
           <td><span class="fos-cred">Exclusive123!</span></td>
           <td><span class="fos-cred">31952</span></td>
         </tr>
