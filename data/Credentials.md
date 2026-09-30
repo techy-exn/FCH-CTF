@@ -179,10 +179,10 @@
           <td><span class="fos-cred">OTworkshop123!</span></td>
         </tr>
         <tr>
-          <td>OT Domain admin - Engineering Workstation (W7)</td>
+          <td>OT Domain admin - Engineering Workstation 2</td>
           <td><span class="fos-pill">Password</span></td>
-          <td><span class="fos-cred">engineeringadmin</span></td>
-          <td><span class="fos-cred">OTworkshop123!</span></td>
+          <td><span class="fos-cred"></span></td>
+          <td><span class="fos-cred">OTsecurityworkshop123!</span></td>
         </tr>
         <tr>
           <td>FortiEDR & FortiSASE</td>
