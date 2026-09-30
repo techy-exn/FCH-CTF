@@ -181,7 +181,7 @@
         <tr>
           <td>OT Domain admin - Engineering Workstation 2</td>
           <td><span class="fos-pill">Password</span></td>
-          <td><span class="fos-cred"></span></td>
+          <td><span class="fos-cred">Kim</span></td>
           <td><span class="fos-cred">OTsecurityworkshop123!</span></td>
         </tr>
         <tr>
