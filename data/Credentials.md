@@ -185,6 +185,12 @@
           <td><span class="fos-cred">OTsecurityworkshop123!</span></td>
         </tr>
         <tr>
+          <td>FortiWeb</td>
+          <td><span class="fos-pill">Password</span></td>
+          <td><span class="fos-cred">admin</span></td>
+          <td><span class="fos-cred">#WeAreExclusive</span></td>
+        </tr>
+        <tr>
           <td>FortiEDR & FortiSASE</td>
           <td><span class="fos-pill">Password</span></td>
           <td><span class="fos-cred">cyberhellotx@gmail.com</span></td>
