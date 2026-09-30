@@ -145,7 +145,7 @@
 
   <div class="fos-callout">
     <i class="fas fa-triangle-exclamation" style="color:var(--fos-red);font-size:1.15rem;"></i>
-    <span>The <strong>FortiOS 8.0 password</strong> is <code>Exclusive123!</code></span>
+    <span>Make <strong>sure</strong>  to check credentials here.</span>
   </div>
 
   <div class="fos-table-wrap">
@@ -160,21 +160,39 @@
       </thead>
       <tbody>
         <tr>
+          <td>Kali</td>
+          <td><span class="fos-pill">Send Username & Password</span></td>
+          <td><span class="fos-cred">Actions > Send Username</span></td>
+          <td><span class="fos-cred">Actions > Send Password</span></td>
+        </tr>
+        <tr>
           <td>IT Workstation 1</td>
           <td><span class="fos-pill">Password</span></td>
-          <td><span class="fos-cred">Fortinet</span></td>
-          <td><span class="fos-cred">Actions > Sent password</span></td>
+          <td><span class="fos-cred">it_userX</span></td>
+          <td><span class="fos-cred">OTworkshop123!</span></td>
         </tr>
         <tr>
-          <td>FortiGate Edge</td>
+          <td>Local admin - Engineering Workstation (W7)</td>
           <td><span class="fos-pill">Password</span></td>
-          <td><span class="fos-cred">admin</span></td>
-          <td><span class="fos-cred">Exclusive123!</span></td>
+          <td><span class="fos-cred">.\admin</span></td>
+          <td><span class="fos-cred">Engineeringstation1!</span></td>
         </tr>
         <tr>
-          <td>FortiAnalyzer</td>
+          <td>OT Domain admin - Engineering Workstation (W7)</td>
           <td><span class="fos-pill">Password</span></td>
-          <td><span class="fos-cred">admin</span></td>
+          <td><span class="fos-cred">engineeringadmin</span></td>
+          <td><span class="fos-cred">OTworkshop123!</span></td>
+        </tr>
+        <tr>
+          <td>OT Domain admin - Engineering Workstation (W7)</td>
+          <td><span class="fos-pill">Password</span></td>
+          <td><span class="fos-cred">engineeringadmin</span></td>
+          <td><span class="fos-cred">OTworkshop123!</span></td>
+        </tr>
+        <tr>
+          <td>FortiEDR & FortiSASE</td>
+          <td><span class="fos-pill">Password</span></td>
+          <td><span class="fos-cred">cyberhellotx@gmail.com</span></td>
           <td><span class="fos-cred">Exclusive123!</span></td>
         </tr>
       </tbody>
