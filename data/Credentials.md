@@ -168,6 +168,12 @@
           <td><span class="fos-cred">OTworkshop123!</span></td>
         </tr>
         <tr>
+          <td>OT - Engineering Station 2</td>
+          <td><span class="fos-pill">Password</span></td>
+          <td><span class="fos-cred">ot_engX</span></td>
+          <td><span class="fos-cred">OTworkshop123!</span></td>
+        </tr>
+        <tr>
           <td>Local admin - Engineering Workstation (W7)</td>
           <td><span class="fos-pill">Password</span></td>
           <td><span class="fos-cred">.\admin</span></td>
