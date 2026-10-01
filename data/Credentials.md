@@ -210,6 +210,12 @@
           <td><span class="fos-cred">Exclusive123!</span></td>
           <td><span class="fos-cred">31952</span></td>
         </tr>
+        <tr>
+          <td>Outlook</td>
+          <td><span class="fos-pill">pass</span></td>
+          <td><span class="fos-cred">cyberhelotx@outlook.com</span></td>
+          <td><span class="fos-cred">Exclusive123!</span></td>
+        </tr>
       </tbody>
     </table>
   </div>
